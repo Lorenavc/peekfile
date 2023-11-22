@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo Fastascan Report
 
 #Establishing current folder as default if user does not provide first argument
@@ -81,7 +83,6 @@ TYPESEQ="Nucleotides"
 fi
 
 echo ====$i $FILETYPE $NUMSEQ $TOTAL_SEQ_LENGTH $TYPESEQ
-
 
 
 ##Printing file lines according to N value
